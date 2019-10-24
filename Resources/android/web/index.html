@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cloud Vision Demo</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+</head>
+<body>
+    <img id="img" src="http://static.13.cl/7/sites/all/themes/portal/resources/images/logo_13cl-2x.png"/>
+
+  <script type="text/javascript">
+
+/*
+Ti.App.addEventListener("app:fromImage", function(e) {
+			var data = {
+				"card" : {
+					"image" : e.data.image,
+				}
+			};
+			console.log("DATA ", data);
+			
+		});
+*/
+
+
+
+		var b=JSON.stringify({"requests":[
+			{  "image":
+				{    "source":
+					{"imageUri":"https://imagenes.milenio.com/McVZ_y84plmeuAPl5YtHqEZt9yU=/958x596/smart/https://www.milenio.com/uploads/media/2013/12/11/la-nueva-credencial-del-ife.jpeg"}}  ,  
+						"features": [{"type":"TEXT_DETECTION","maxResults":50}]    } ]});
+		
+		var e=new XMLHttpRequest;
+		
+		e.onload=function(){console.log(e.responseText)};
+		console.log(e.responseText);
+		e.open("POST","https://vision.googleapis.com/v1/images:annotate?key=AIzaSyAGXDXC8Trqupv7yiKzGL_M9qHTdqi-9q0",!0);
+		e.send(b)
+		</script>
+ 
+	<div id="results"></div>
+</body>
+</html>

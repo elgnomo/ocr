@@ -1,0 +1,414 @@
+
+"#encabezado":{
+	top:0,
+	height: "60dp",
+	left:0,
+	right: 0
+}
+
+"#subEncabezado":{
+	bottom: 0,
+	height: "60dp",
+	backgroundColor: "#014f98"
+}
+
+"#scrollGeneral":{
+	top:0,
+	bottom: 0,
+	left:"20dp",
+	right: "20dp",
+	
+}
+
+"#pasoUno":{
+	height:Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	//backgroundColor: "red",
+	layout: "vertical"
+}
+
+"#pasoDos":{
+	height:Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	//backgroundColor: "red",
+	layout: "vertical"
+}
+
+"#celdaId":{
+	touchEnabled:false
+}
+
+"#etiquetaId":{
+	text: "ID",
+	touchEnabled:false,
+}
+
+"#cajaId":{
+	touchEnabled:false
+}
+
+"#etiquetaId":{
+	text: "ID"
+}
+
+"#etiquetaNombre":{
+	text: "NOMBRE"
+}
+
+"#cajaNombre":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_DEFAULT,
+	autocapitalization:Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE
+}
+
+"#etiquetaAP":{
+	text: "APELLIDO PATERNO"
+}
+
+"#cajaAP":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_DEFAULT,
+	autocapitalization:Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE
+}
+
+"#etiquetaAM":{
+	text: "APELLIDO MATERNO"
+}
+
+"#cajaAM":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_DEFAULT,
+	autocapitalization:Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE
+}
+
+"#etiquetaCorreoelectronico":{
+	text: "CORREO ELECTRÓNICO"
+}
+
+"#cajaCorreoelectronico":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_EMAIL,
+	autocapitalization:Titanium.UI.TEXT_AUTOCAPITALIZATION_NONE
+}
+
+"#etiquetatelfonoCeluar":{
+	text: "TELÉFONO CELULAR"
+}
+
+"#cajatelefonoCelular[platform=android]":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_PHONE_PAD,
+	returnKeyType: Titanium.UI.RETURNKEY_NEXT,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	maxLength: 10,
+}
+
+"#etiquetatelefonoFijo":{
+	text: "TELÉFONO FIJO",
+}
+
+"#cajatelefonoFijo":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_NUMBERS_PUNCTUATION,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE,
+}
+
+"#cajatelefonoFijo[platform=android]":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_NUMBERS_PUNCTUATION,
+	returnKeyType: Titanium.UI.RETURNKEY_NEXT,
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	maxLength: 10,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE,
+}
+
+"#pasoApaso":{
+	top:"60dp",
+	height: "60dp",
+	backgroundColor: "#fff"
+}
+
+"#pasoUnocolumna":{
+	left:0,
+	height: "60dp",
+	width: "33%"
+}
+
+"#pasoUnocirculo":{
+	height: "50dp",
+	width:  "50dp",
+	borderRadius: "25dp",
+	backgroundColor: "#014f98"
+}
+
+"#pasoDoscolumna":{
+	height: "60dp",
+	width: "33%"
+}
+
+"#pasoDoscirculo":{
+	height: "50dp",
+	width:  "50dp",
+	borderRadius: "25dp",
+	backgroundColor: "#E7EFF5"
+}
+
+"#pasoTrescolumna":{
+	right: 0,
+	height: "60dp",
+	width: "33%"
+}
+
+"#pasoTrescirculo":{
+	height: "50dp",
+	width:  "50dp",
+	borderRadius: "25dp",
+	backgroundColor: "#E7EFF5"
+}
+
+"#imagenPasouno":{
+	height: Ti.UI.SIZE,
+	width:  Ti.UI.SIZE,
+	image:"/imagenes/index/resumeDesactivado.png"
+}
+
+"#imagenPasodos":{
+	height: Ti.UI.SIZE,
+	width:  Ti.UI.SIZE,
+	image:"/imagenes/index/locationDesactivado.png"
+}
+
+"#imagenPasotres":{
+	height: Ti.UI.SIZE,
+	width:  Ti.UI.SIZE,
+	image:"/imagenes/index/cardDesactivado.png"
+}
+
+"#siguientePaso":{
+	bottom: "5dp",
+	height: "50dp",
+	width: Ti.UI.FILL
+}
+
+"#btnSiguiente":{
+	height: "50dp",
+	width: "50%",
+	borderRadius: "10dp",
+	backgroundColor: "#E7EFF5"
+}
+
+"#labelTitulo":{
+	color: "#467FB4",
+	font: {
+		fontSize: "20dp",
+		fontFamily: "cj",
+		fontWeight: 'bold'
+	},
+	text: "DATOS PERSONALES",
+	height: "100%",
+	left:"5dp",
+	height: Ti.UI.SIZE,
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_MIDDLE,
+}
+
+"#celdaTitulo":{
+	top:0,
+	height: "60dp",
+	width: Ti.UI.FILL,
+}
+
+"#lineaTitulo":{
+	bottom: 0,
+	height: "2dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#E7EFF5"
+}
+
+"#labelBoton":{
+	color: "#fff",
+	font: {
+		fontSize: "20dp",
+		fontFamily: "cj",
+		fontWeight: 'bold'
+	},
+	text: "SIGUIENTE",
+	height: "100%",
+	width: "100%",
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_MIDDLE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+}
+
+
+/*----Dos-----*/
+"#labelTitulodos":{
+	color: "#467FB4",
+	font: {
+		fontSize: "20dp",
+		fontFamily: "cj",
+		fontWeight: 'bold'
+	},
+	text: "DATOS DEMOGRAFICOS",
+	height: "100%",
+	left:"5dp",
+	height: Ti.UI.SIZE,
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_MIDDLE,
+}
+
+"#celdaTitulodos":{
+	top:0,
+	height: "60dp",
+	width: Ti.UI.FILL,
+}
+
+"#lineaTitulodos":{
+	bottom: 0,
+	height: "2dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#E7EFF5"
+}
+
+"#etiquetaFecha":{
+	text: "FECHA DE NACIMIENTO",
+	touchEnabled: false
+}
+
+"#etiquetaCurp":{
+	text: "CURP",
+	touchEnabled: false
+}
+
+"#etiquetaLugar":{
+	text: "LUGAR DE NACIMIENTO",
+	touchEnabled: false
+}
+
+"#etiquetaCodigopostal":{
+	text: "CODIGO POSTAL",
+	touchEnabled: false
+}
+
+"#etiquetaEstado":{
+	text: "ESTADO",
+	touchEnabled: false
+}
+
+"#etiquetaMunicipio":{
+	text: "MUNICIPIO / ALCALDIA",
+	touchEnabled: false
+}
+
+"#etiquetaColonia":{
+	text: "COLONIA",
+	touchEnabled: false
+}
+
+"#etiquetaCalle":{
+	text: "CALLE",
+	touchEnabled: false
+}
+
+"#etiquetaNumeroexterior":{
+	text: "NUMERO EXTERIOR",
+	touchEnabled: false
+}
+
+"#etiquetaNumerointerior":{
+	text: "NUMERO INTERIOR",
+	touchEnabled: false
+}
+
+"#celdaCodigopostal":{
+	width: "47.5%",
+	left: 0
+}
+
+"#celdaEstado":{
+	width: "47.5%",
+	right: 0
+}
+
+"#celdaMunicipio":{
+	width: "47.5%",
+	left: 0
+}
+
+"#celdaColonia":{
+	width: "47.5%",
+	right: 0,
+	touchEnabled: false
+}
+
+"#celdaNumeroexterior":{
+	width: "47.5%",
+	left: 0
+}
+
+"#celdaNumerointerior":{
+	width: "47.5%",
+	right: 0
+}
+
+"#labelTitulotres":{
+	color: "#467FB4",
+	font: {
+		fontSize: "20dp",
+		fontFamily: "cj",
+		fontWeight: 'bold'
+	},
+	text: "CREEDENCIAL DE ELECTOR",
+	height: "100%",
+	left:"5dp",
+	height: Ti.UI.SIZE,
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_MIDDLE,
+}
+
+"#celdaTitulotres":{
+	top:0,
+	height: "60dp",
+	width: Ti.UI.FILL,
+}
+
+"#lineaTitulotres":{
+	bottom: 0,
+	height: "2dp",
+	width: Ti.UI.FILL,
+	backgroundColor: "#E7EFF5"
+}
+
+"#celdaFotos":{
+	top:"60dp",
+	bottom: 0
+}
+
+"#topCredencial":{
+	top:0,
+	height: "50%",
+	width: Ti.UI.FILL
+}
+
+"#frontal":{
+	borderRadius: "30dp",
+	height: "90%",
+	width: Ti.UI.FILL,
+	borderColor:"#B9CFE2",
+	touchEnabled: false
+}
+
+"#bottomCredencial":{
+	bottom:0,
+	height: "50%",
+	width: Ti.UI.FILL,
+}
+
+"#reverso":{
+	borderRadius: "30dp",
+	height: "90%",
+	width: Ti.UI.FILL,
+	borderColor:"#B9CFE2",
+	touchEnabled: false
+}
+
+"#cajaNumeroexterior":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_PHONE_PAD,
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_NUMBERS_PUNCTUATION,
+	returnKeyType:Titanium.UI.RETURNKEY_NEXT,
+}
+
+"#cajaNumerointerior":{
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_PHONE_PAD,
+	keyboardType:Titanium.UI.KEYBOARD_TYPE_NUMBERS_PUNCTUATION,
+	returnKeyType:Titanium.UI.RETURNKEY_DONE,
+}

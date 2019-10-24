@@ -1,0 +1,24 @@
+/**
+ * Alloy for Titanium by Appcelerator
+ * This is generated code, DO NOT MODIFY - changes will be lost!
+ * Copyright (c) 2012 by Appcelerator, Inc.
+ */
+var Alloy = require('/alloy'),
+_ = Alloy._,
+Backbone = Alloy.Backbone;
+
+// The contents of this file will be executed before any of
+// your view controllers are ever executed, including the index.
+// You have access to all functionality on the `Alloy` namespace.
+//
+// This is a great place to do any initialization for your app
+// or create any global variables/functions that you'd like to
+// make available throughout your app. You can easily make things
+// accessible globally by attaching them to the `Alloy.Globals`
+// object. For example:
+//
+// Alloy.Globals.someGlobalFunction = function(){};
+global.Backbone = Backbone;global._ = _;global.Alloy = Alloy;
+Alloy.createController('index');
+
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyIsImFwcC9hbGxveS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7QUFLQSxJQUFBLEtBQUEsR0FBQSxPQUFBLENBQUEsUUFBQSxDQUFBO0FBQ0EsQ0FBQSxHQUFBLEtBQUEsQ0FBQSxDQURBO0FBRUEsUUFBQSxHQUFBLEtBQUEsQ0FBQSxRQUZBOztBQ0xBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FEQUEsS0FBQSxDQUFBLGdCQUFBLENBQUEsT0FBQSIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogQWxsb3kgZm9yIFRpdGFuaXVtIGJ5IEFwcGNlbGVyYXRvclxuICogVGhpcyBpcyBnZW5lcmF0ZWQgY29kZSwgRE8gTk9UIE1PRElGWSAtIGNoYW5nZXMgd2lsbCBiZSBsb3N0IVxuICogQ29weXJpZ2h0IChjKSAyMDEyIGJ5IEFwcGNlbGVyYXRvciwgSW5jLlxuICovXG52YXIgQWxsb3kgPSByZXF1aXJlKCcvYWxsb3knKSxcblx0XyA9IEFsbG95Ll8sXG5cdEJhY2tib25lID0gQWxsb3kuQmFja2JvbmU7XG5cbl9fTUFQTUFSS0VSX0FMTE9ZX0pTX19cbkFsbG95LmNyZWF0ZUNvbnRyb2xsZXIoJ2luZGV4Jyk7IiwiLy8gVGhlIGNvbnRlbnRzIG9mIHRoaXMgZmlsZSB3aWxsIGJlIGV4ZWN1dGVkIGJlZm9yZSBhbnkgb2Zcbi8vIHlvdXIgdmlldyBjb250cm9sbGVycyBhcmUgZXZlciBleGVjdXRlZCwgaW5jbHVkaW5nIHRoZSBpbmRleC5cbi8vIFlvdSBoYXZlIGFjY2VzcyB0byBhbGwgZnVuY3Rpb25hbGl0eSBvbiB0aGUgYEFsbG95YCBuYW1lc3BhY2UuXG4vL1xuLy8gVGhpcyBpcyBhIGdyZWF0IHBsYWNlIHRvIGRvIGFueSBpbml0aWFsaXphdGlvbiBmb3IgeW91ciBhcHBcbi8vIG9yIGNyZWF0ZSBhbnkgZ2xvYmFsIHZhcmlhYmxlcy9mdW5jdGlvbnMgdGhhdCB5b3UnZCBsaWtlIHRvXG4vLyBtYWtlIGF2YWlsYWJsZSB0aHJvdWdob3V0IHlvdXIgYXBwLiBZb3UgY2FuIGVhc2lseSBtYWtlIHRoaW5nc1xuLy8gYWNjZXNzaWJsZSBnbG9iYWxseSBieSBhdHRhY2hpbmcgdGhlbSB0byB0aGUgYEFsbG95Lkdsb2JhbHNgXG4vLyBvYmplY3QuIEZvciBleGFtcGxlOlxuLy9cbi8vIEFsbG95Lkdsb2JhbHMuc29tZUdsb2JhbEZ1bmN0aW9uID0gZnVuY3Rpb24oKXt9O1xuIl0sInNvdXJjZVJvb3QiOiIvVXNlcnMvdXNlcjAwMS9Eb2N1bWVudHMvQXBwY2VsZXJhdG9yX1N0dWRpb19Xb3Jrc3BhY2Uvb2NyIn0=

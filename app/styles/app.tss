@@ -1,0 +1,132 @@
+/*
+
+This is your global styles file. Selectors and rules you define
+here will be applied throughout your app. However, these rules
+have the lowest priority of any style settings.
+
+For more information, see the "Style Priorities" section of
+http://docs.appcelerator.com/platform/latest/#!/guide/Alloy_Styles_and_Themes
+
+For example, the following would apply to all labels, windows,
+and text fields (depending on platform) in your app unless you
+overrode the settings with other TSS, XML, or JS settings:
+
+'Label[platform=android,windows]': {
+	color: '#000' // all platforms except Android and Windows default to black
+}
+
+'Window': {
+	backgroundColor: '#fff' // white background instead of default transparent or black
+}
+
+'TextField[platform=android]': {
+	height: Ti.UI.SIZE
+}
+
+*/
+".windows": {
+	backgroundColor:"#ffffff"
+}
+
+".windows[platform=android]":{
+	backgroundColor:"#ffffff",
+	theme: "Theme.AppCompat.Translucent.NoTitleBar.Fullscreen",
+	//windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_ADJUST_PAN,
+	exitOnClose:true
+}
+
+".circuloCelda":{
+	height: "60dp",
+	width:  "60dp",
+	borderRadius: "30dp"
+}
+
+".cuerpo":{
+	left: 0,
+	right: 0,
+	top:"120dp",
+	bottom: "60dp",
+}
+
+".celdaGeneral":{
+	top: "5dp",
+	height: "60dp",
+	width: Ti.UI.FILL,
+	borderRadius: "5dp",
+	borderColor:"#B9CFE2"
+}
+
+".etiquetaText":{
+	color: "#467FB4",
+	font: {
+		fontSize: "12dp",
+		fontFamily: "cj",
+		fontWeight: 'bold'
+	},
+	text: "TEXTO",
+	top:"5dp",
+	left:"5dp",
+	height: Ti.UI.SIZE
+}
+
+".cajadeTexto":{
+	top:20,
+	bottom: 0,
+	color: '#014f98',
+	left:"5dp",
+	right: "40dp",
+	//hintText: "Correo electrónico",
+	keyboardToolbarHeight: 40,
+	keyboardType:Ti.UI.KEYBOARD_TYPE_DEFAULT,
+	returnKeyType:Titanium.UI.RETURNKEY_NEXT,
+	autocorrect: false,
+	font: {
+		fontSize: "16dp",
+		fontFamily: "cj",
+		fontWeight: 'bold'
+	},
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_MIDDLE,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	borderColor : "transparent",
+    backgroundSelectedColor : "transparent",
+    backgroundFocusedColor : "transparent",
+    backgroundImage : "transparent",
+    focusedColor : "transparent",
+    borderStyle : Ti.UI.INPUT_BORDERSTYLE_NONE,
+	backgroundColor:'transparent',
+	clearButtonMode : Ti.UI.INPUT_BUTTONMODE_ALWAYS,
+	keyboardToolbarColor:'transparent'
+
+	//keyboardType:Titanium.UI.KEYBOARD_TYPE_EMAIL,
+	
+	//autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE
+}
+
+".etiquetadeTexto":{
+	top:20,
+	bottom: 0,
+	color: '#014f98',
+	left:"5dp",
+	right: 0,
+	font: {
+		fontSize: "16dp",
+		fontFamily: "cj",
+		fontWeight: 'bold'
+	},
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_MIDDLE,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	borderColor : "transparent",
+}
+
+".contenedorDosceldas":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE
+}
+
+".imagenTexto":{
+	right:"10dp",
+	height: "20dp",
+	width:  "20dp",
+	image:"/imagenes/index/close.png",
+	visible: false
+}

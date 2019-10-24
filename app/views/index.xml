@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="windows">
+	<View id="celdaFotos">
+
+					<View id="topCredencial">
+						<View id="frontal"></View>
+					</View>
+					
+
+					<View id="bottomCredencial">
+						<View id="reverso"></View>
+					</View>
+					
+				</View>
+	</Window>
+</Alloy>
