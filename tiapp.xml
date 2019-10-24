@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>com.trigarante.ocr</id>
+    <id>com.ideashappy.ahorra</id>
     <name>ocr</name>
     <version>1.0</version>
     <publisher>user001</publisher>
@@ -11,7 +11,10 @@
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>4c8ec6b7-2fbb-4347-9ccc-7c4ae0f91756</guid>
+    <!-- Efrain >
+    <guid>4c8ec6b7-2fbb-4347-9ccc-7c4ae0f91756</guid-->
+    <!-- Alberto -->
+    <guid>b4a8020d-f605-4e69-9666-231bd830108f</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <property name="run-on-main-thread" type="bool">true</property>
     <ios>
@@ -38,6 +41,12 @@
                 <false/>
                 <key>UIStatusBarStyle</key>
                 <string>UIStatusBarStyleDefault</string>
+                <key>NSCameraUsageDescription</key>
+                <string>¿Can we use your camera?</string>
+                <key>NSPhotoLibraryUsageDescription</key>
+                <string>¿Can we save to your library?</string>
+                <key>NSPhotoLibraryAddUsageDescription</key>
+                <string>¿Can we save to your library? 2</string>
             </dict>
         </plist>
     </ios>
